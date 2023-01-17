@@ -1,0 +1,280 @@
+/* Navigation bar start */
+* {
+    font-family: 'IBM Plex Sans', sans-serif Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'IBM Plex Sans', sans-serif Arial, Helvetica, sans-serif;
+}
+
+.navbar img {
+    width: 2rem;  
+}
+
+.navbar-brand {
+    margin-left: 3rem;
+}
+
+.navbar {
+    background-color: #B12524;
+}
+
+button img {
+    margin-left: -0.5rem;
+    margin-top: -0.3rem;
+}
+
+.navbar-toggler {
+    float: right;
+}
+
+.navbar-nav {
+    margin-right: 3rem;
+}
+
+.nav-item a {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+    color: gainsboro;
+}
+
+#carouselForPresidentWeahBanner {
+    margin-top: 3rem;
+}
+
+.biographyHeader h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.biographyBackground {
+    background-color: #15315D;
+}
+
+/* Project section start */
+.projectsBackground {
+    background-color: #f1f1f1;
+}
+
+.projectBackgroundColor {
+    background-color: #15315D;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.rowBackgroundColor {
+    font-size: 1.1rem;
+
+}
+
+
+/* Project section end */
+
+.projectHeader {
+    text-align: center;
+    color: #15315D; 
+}
+
+.projectHomeInfo {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+/* The biography page  */
+.completeBiography {
+    font-size: 1.2rem!important;
+}
+
+
+
+
+
+
+/* Footer section start */
+.footerBackground {
+    background-color: #B12524;
+    text-decoration: none;
+}
+
+.footerBackground a {
+    color: #ffffff;
+}
+
+
+/* Footer section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) { 
+    .biographyHeader,
+    .biographyHeaderPage h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .biographyHeaderPage h2 {
+        color: #15315D;
+    }
+
+    .navbar img {
+        width: 1.9rem;  
+    }
+
+    table .tableQuestions {
+       text-align: left!important;
+    }
+
+    .biographyImage img {
+        margin: auto;
+        width: inherit;
+    }
+    
+    .projectHeader h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .card {
+        margin: auto;
+        width: inherit;
+    }
+
+    .projectImage {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+/* Small devices (landscape phones, 400px and up) */
+@media (min-width: 400px) { 
+    .biographyHeader,
+    .biographyHeaderPage h2 {
+        text-align: center;
+    }
+
+    .navbar img {
+        width: 2rem;  
+    }
+
+  
+
+
+
+    
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .biographyHeader,
+    .biographyHeaderPage h2 {
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .navbar img {
+        width: 2rem;  
+    }
+
+    
+    table {
+        display: block;
+    }
+
+    table .tableQuestions {
+        text-align: right!important;
+    }
+
+    .projectHeader h2 {
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .biographyHeader,
+    .biographyHeaderPage h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    table td {
+        min-width: 400px;
+        font-size: 1.3rem;
+    }
+
+    .projectHeader h2 {
+        font-size: 2.5rem!important;
+    }
+
+  
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .biographyHeader h2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .projectHeader, 
+    .biographyHeaderPage h2 {
+        font-size: 3rem!important;
+    }
+       
+    
+
+}
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .biographyHeader,
+    .biographyHeaderPage h2 {
+        text-align: center;
+    }
+
+    
+}
